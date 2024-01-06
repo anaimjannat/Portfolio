@@ -1,0 +1,68 @@
+body{
+    margin:0%;
+}
+.highlight{
+    color: deeppink;
+}
+h1{
+    font-size: 50px;
+}
+p{
+    font-size: 20px;
+    color: gray;
+}
+.half-width{
+    width: 40%;
+    float:left;
+    margin-left:5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.top-banner{
+    background-image: url("image/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+}
+.button{
+    text-decoration: none;
+    background-color: deeppink;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.button:hover{
+    background-color: white;
+    color: deeppink;
+    font-size: 19px;
+    border: 2px solid deeppink;
+    border-radius: 5px;
+}
+.dream-section{
+    background-image: url(image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experiences-area{
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 75%;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, orangered, deeppink);
+    border-image-slice: 1;
+}
+.foot{
+    text-align: center;
+    color: gray;
+}
